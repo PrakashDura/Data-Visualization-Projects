@@ -26,7 +26,7 @@ This project explores **two distinct datasets** using **Python and Jupyter Noteb
 - **Goal:** Identify **species differences** using statistical and visual techniques.  
 
 ## **🌍 World Happiness Report**  
-- **Source:** World Happiness Reports (2015-2019)  
+- **Source:** Kaggle - World Happiness Reports (2015-2019)  
 - **Records:** 782 samples (before cleaning) → 710 samples (after removing missing values & zero-value rows)  
 - **Features:** Country, Happiness Score, GDP, Social Support, Life Expectancy, Freedom, Corruption, Generosity  
 - **Goal:** Identify **factors influencing happiness** and **perform PCA to reduce dimensions**.  
@@ -106,14 +106,6 @@ This project explores **two distinct datasets** using **Python and Jupyter Noteb
 - **After outlier removal**, PCA results were **more stable**, confirming that the first **5 principal components** were enough to explain **most variance**.  
 
 ---
-
-# 🚀 How to Run This Project  
-
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/PrakashDura/flower-happiness-visualization.git
-cd flower-happiness-visualization
-
 
 ## Dependencies
 - Python 3.x
